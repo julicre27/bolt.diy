@@ -90,7 +90,12 @@ export default defineConfig((config) => {
       __PKG_PEER_DEPENDENCIES: JSON.stringify(pkg.peerDependencies),
       __PKG_OPTIONAL_DEPENDENCIES: JSON.stringify(pkg.optionalDependencies),
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      },
+
+    server: {
+      allowedHosts: ['app-boltdiy.yazeuk.easypanel.host'],
     },
+    
     build: {
       target: 'esnext',
     },
