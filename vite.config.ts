@@ -93,11 +93,10 @@ export default defineConfig((config) => {
       },
 
     server: {
-      allowedHosts: [
-        'app-boltdiy.yazeuk.easypanel.host',
-        'app-boltdiy.automatizecomaju.com.br',
-    ],
-    },
+      host: true,
+      strictPort: true,
+      allowedHosts: ['.'],
+},
     
     build: {
       target: 'esnext',
