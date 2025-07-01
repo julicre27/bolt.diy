@@ -93,7 +93,7 @@ export default defineConfig((config) => {
       },
 
     server: {
-      allowedHosts: ['.'],
+      allowedHosts: ['app-boltdiy.automatizecomaju.com.br'],
     },
     
     build: {
