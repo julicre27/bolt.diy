@@ -95,7 +95,7 @@ export default defineConfig((config) => {
     server: {
       host: true,
       strictPort: true,
-      allowedHosts: ['app-boltdiy.yazeuk.easypanel.host'],
+      allowedHosts: ['all'],
 },
     
     build: {
