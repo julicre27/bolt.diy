@@ -91,8 +91,7 @@ export default defineConfig((config) => {
       __PKG_OPTIONAL_DEPENDENCIES: JSON.stringify(pkg.optionalDependencies),
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
       },
-
-    server: {
+ server: {
       host: 0.0.0.0,
       strictPort: true,
       allowedHosts: ['all'],
