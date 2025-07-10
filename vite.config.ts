@@ -93,7 +93,7 @@ export default defineConfig((config) => {
       },
 
     server: {
-      host: true,
+      host: 0.0.0.0,
       strictPort: true,
       allowedHosts: ['all'],
 },
